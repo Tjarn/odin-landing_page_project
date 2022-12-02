@@ -1,0 +1,43 @@
+/* landing.css */
+    /* wrapper */
+/* header */
+
+.wrap {
+    width:2000px;
+    height: 1000px;
+    background: darkblue;
+    border:3px dotted lightgreen;
+}
+
+.header {
+    /* width:200px; */
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    background: blueviolet;
+    border:3px  dashed black;
+}
+
+.chest {
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    background: blueviolet;
+    border:3px  dashed palegoldenrod;
+}
+
+.torso {
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    background: blueviolet;
+    border:3px  dashed palegoldenrod;
+}
+
+.feet {
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    background: blueviolet;
+    border:3px  dashed palegoldenrod;
+}
