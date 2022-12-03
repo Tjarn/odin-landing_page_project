@@ -1,0 +1,77 @@
+
+Project: Landing Page from project odin Foundations course
+
+12/3/22
+
+
+This is a comebacklater after the comment below.  I also realize that by
+changing the title to match the division I'm working it, I might also
+give myself a clue when I screw something up.
+------------
+
+Still thinking about just how to go about structuring things.  Right now,
+I'm conflicted.  The directory tree idea is just sort of the git build tree
+stuff.  So I need to see just how the branching and merging works.  I can
+save resources that way.  So I need to plan my commits and what I work on.
+
+So if I commit before subdividing the carcass, then after, Then after each 
+subdivision, making sure it works before I commit, I should be able to roll
+back to a working version each time I break it in the future.
+
+so -- plan to repair breakage and make it as easy as I can.  Oh, I should
+probably clean out some old things or put in a directory in a .gitignore file.
+
+--------------------------------------
+12/2/2022
+
+I've been thinking about this project.  I think my analysis of how to
+put it together are a bit off.
+
+First -- I want to create a heirarchy of directories so that I've got
+the equivalent of the html heirarchy in my directory tree.  For each subdivision, I make a subdirectory.  And that subdirectory will have one for each
+subdivision within it.
+
+A directory with no subdirectories is an html division with no subdivisions
+within it. (Exceptions allowed -- for example a list of links...
+
+Why go to all that trouble? 
+
+Mostly as a method of self-discipline.  I have a grasshopper mind.  It jumps
+from thought to thought and occasionally takes off in a colorful whirrr...
+flying off into fascinating and colorful places.  The good part is this 
+gives me an oversurfiet (grasshopper mind here: oversupply of overabundance?
+is there a word like oxymoron(a word or phrase that contradicts itself -- jumbo shrimp) which means a word that is overly too much redundant? Bad writers write
+haystack paragraphs.  I beat them with haystack sentences! Bad grasshopper
+mind! Back to our previously interupted train of thought, waiting patiently,
+the huge black engine venting a hwoosh of wet-smelling steam, then wending
+back onto the track of the benifits to a grashopper mind.  I rarely run out
+of ideas.
+
+The biggest problem is retaining focus and direction.  If I approach it in
+a systematic manner, I should be able to work as a one-man team.  I suspect
+that branching and merging in git might have some use, too.  But I can hold
+it together for smaller bits, then use them to build bigger ones, and Bob's
+your uncle.  You decide whether he's your mother or father's brother.
+
+My base directory will contain the page's index.html file.  Just for my
+cognitive comfort, I'll make a hard link to the page's name... so for
+this project, the root page, index.html, will also be available as Landing.html
+
+After I have the html structure, and at least skeleton verbiage, then I can 
+start building up the css decorations, starting from the simplest and working 
+toward the more complex.
+
+OK, I can start by using git.  I can delete an entire tree and get it back with\'git revert <treename>'  OK, dropping off to refactor all.
+
+
+
+
+------------------------------------------------------------------------------
+12/1/2022
+This is a learning project for me, so any suggestions or observations
+are welcome.  Also, this will serve as notes on my progress, observations,
+or just chatter.
+
+It looks like the depository is setup right. I'll commit the changes to this
+file, then push it to github.
+#########################################################################
