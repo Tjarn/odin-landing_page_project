@@ -5,3 +5,10 @@
     background: palegoldenrod;
     .font-size: 28px;
 }
+
+.tete {
+    width: 1440px;
+    height: 350px;
+    color:#f9fafa;
+    background: #1f2937;
+}
