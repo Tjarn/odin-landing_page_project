@@ -3,7 +3,7 @@
     width: 1440px;
     height: 1912px;
     color: rgb(138, 29, 29);
-    background: palegoldenrod;
+    background: grey;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     
@@ -16,15 +16,31 @@
     background: #1f2937;
     display: flex;
     flex-direction: row;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 30px;
 }
 
 .tete-left {
     width: 720px;
-    border:5px solid lightgreen;
+}
+
+p.loud {
+    color: #f9fafa;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p.soft {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+,t-l-logo {
+    color:#f9fafa;
+    font-size:24px;   
 }
 
 .tete-right {
     width: 720px;
-    border: 5px solid lightblue;
-
 }
