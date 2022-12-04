@@ -2,8 +2,11 @@
 .carcass {
     width: 1440px;
     height: 1912px;
+    color: rgb(138, 29, 29);
     background: palegoldenrod;
-    .font-size: 28px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    
 }
 
 .tete {
