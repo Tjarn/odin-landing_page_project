@@ -1,9 +1,32 @@
 
 Project: Landing Page from project odin Foundations course
 
+12/5/22
+It looks like the branch and merge with git is what I was sort of trying to do with
+directory trees.  I need to learn more.  Also need to find out how to roll back.
+Is that going to be revert?
+
+------
+I have a real focus problem.  I get mired in some detail and lose sight of
+overall objectives.  The initial tactics obscure the strategy. (I think that's the
+right way around.)
+
+I have made a bit of progress since then. I'm getting used to using git, and
+reverting back to a working version, found that I wished that I'd committed 
+again before it blew up.
+
+So, I'm feeling like I lost control of this page a while back.  I've done some
+things right, but I'm still hung up on the button on the first half.
+
+Hmm... roll back somewhere around there and yank the code out and put
+<p class="button"><button goes here></p>
+as a placeholder?  Then I could set up an experiment directory there and work on a button
+more isolated.  That might let me straighten up the rest...
+
+Time to see if I can use git to do this.
+
+======================================
 12/3/22
-
-
 This is a comebacklater after the comment below.  I also realize that by
 changing the title to match the division I'm working it, I might also
 give myself a clue when I screw something up.
