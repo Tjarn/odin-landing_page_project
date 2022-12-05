@@ -57,6 +57,8 @@ p.soft {
 .chesthi {
     color:black;
     background: lightblue;
+    display:flex;
+    justify-content: center;
 }
 
 p.banner {
@@ -77,3 +79,16 @@ p.banner {
     border:5px solid #3882f6;
     background: darkblue;
 }
+
+/* end of chest */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* beginning of torso */
+
+
+.torso {
+    height: 300px;
+    color: #1f2937;
+    background: #e5e7eb;
+
+}
+
