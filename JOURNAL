@@ -6,6 +6,10 @@ It looks like the branch and merge with git is what I was sort of trying to do w
 directory trees.  I need to learn more.  Also need to find out how to roll back.
 Is that going to be revert?
 
+Nope, restore -s HEAD~3 index.html bodystyles.css did the job.  Now to set
+up branches -- tete,chest,torso,legs,footer.  Then I'll do a bit and merge
+to see how that works.  Time to git to gitting.  Oh, it was nice and clean
+after the restore.  Makes working on it a lot cleaner.
 ------
 I have a real focus problem.  I get mired in some detail and lose sight of
 overall objectives.  The initial tactics obscure the strategy. (I think that's the
