@@ -82,7 +82,6 @@ p.banner {
     background: darkblue;
 }
 
-<<<<<<< HEAD
 /* end of chest */
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* beginning of torso */
@@ -92,11 +91,17 @@ p.banner {
     height: 300px;
     color: #1f2937;
     background: #e5e7eb;
+}
+
+.quote  {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
 
 }
 
 
-/* end of chest */
+/* end of torso */
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* beginning of legs */
 
@@ -106,6 +111,3 @@ p.banner {
     color: white;
     background: #3882f6;
 }
-=======
-
->>>>>>> torso

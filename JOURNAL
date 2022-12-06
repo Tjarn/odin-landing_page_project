@@ -2,6 +2,15 @@
 Project: Landing Page from project odin Foundations course
 
 12/5/22
+
+Kida shot myself in the foot.  I made several branches so I could work on one thing
+or another as I go along. Not merging with main got 'em out of sync.  I may need
+to merge main back to the branch before working.  Or -- branch off when I start, then
+merging back and deleting the branch or just deleting without merging.  Or..  
+start every session by making a work branch, testing it, and if it's good merge, otherwise
+dump.  I'll try  that.  Otherwise the branching seems pretty good.
+
+------
 It looks like the branch and merge with git is what I was sort of trying to do with
 directory trees.  I need to learn more.  Also need to find out how to roll back.
 Is that going to be revert?
