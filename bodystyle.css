@@ -36,14 +36,26 @@ p.soft {
     font-size: 18px;
 }
 
-,t-l-logo {
+.t-l-logo {
     color:#f9fafa;
     font-size:24px;   
 }
 
 .tete-right {
-    width: 720px;
+    /* width: 720px; */
 }
+
+.navagation {
+    display: flex;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 20px;
+}
+
 
 /* End of tete css definitions  */
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
