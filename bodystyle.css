@@ -100,18 +100,31 @@ p.banner {
 
 
 .torso {
-    height: 300px;
+    /* height: 300px; */
     color: #1f2937;
     background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.belly {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote  {
     color: #1f2937;
     font-size: 36px;
     font-weight: 100;
-
 }
 
+.attrib {
+    text-align: right;
+    font-size: 18px;
+    font-weight:800;
+}
 
 /* end of torso */
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
