@@ -1,6 +1,74 @@
-
 Project: Landing Page from project odin Foundations course
+12/7/22
 
+I don't think I understand merging because I don't understand branching.
+I'll just have to live with the uncertainity, and hope that I have it
+figured out by the next 'oh shit!' moment.
+
+So today to try to do that.  Switch to working branch, work, come back
+to main branch, merge working into main,
+
+Off to go to work branch.
+
+
+========================================================================
+12/6/22
+
+I'm fretting about something that I can't identify.  It has to do with how
+I can develop good habits using git as a major tool.
+The test flow is:
+1. git -- cleanup any pending commits
+		git add .
+		git commit -m "cleanup before switching branches"
+2. git -- switch to working branch
+		-- git switch working
+		-- git checkout working
+
+That protects the work up to now.  Even a massive screwup can't endanger
+the main branch.  Now to try even risky things.
+	
+time passes while we're having fun.
+
+3. Hopefully having produced some work of worth, it's time to checkpoint
+   the project. Time to commit and describe checkpoint in comments
+
+Repeat 3 incrementally as you progress.  If you hit a blind alley, you
+can drop back before the blockage with something like
+
+	git restore -s	HEAD^ index.html
+
+to get back to the version you last committed. (test this)
+to go back two versions, use HEAD^^ and so forth. To dig farther back,
+try: 
+
+		git restore -s HEAD~4 index.html style.css
+
+to restore the version 4 commits back. The hard part is figuring out how
+far back to go.  That's what will teach you to write helpful commit 
+messages. git log will help you here.
+
+At the end of the session/day/work period, make a final commit, switch
+branch back to main and merge the working directory into main.
+
+4. clean up the work.
+		git add .
+		git commit -m "end of day today's date"
+		git branch
+		git switch main
+		git merge working
+
+
+That's it.  That is, if you don't have to merge anything that conflicts.
+I haven't had to merge enough (1 time) to know how to resolve things.
+I know that I should be able to do this, but haven't figured out how.
+
+I'm thinking that if I created two fake users, have them commit to two
+different versions of the same file to my main trunk, then merged one,
+then the other, it might give me repeatable merging practice.
+
+Off to make 2 pseudonymal (is that a word?) users.
+
+=======================================================================
 12/5/22
 
 Kida shot myself in the foot.  I made several branches so I could work on one thing

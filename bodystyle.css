@@ -130,6 +130,10 @@ p.banner {
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* beginning of legs */
 
+.legs {
+    display: flex;
+}
+
 .bbox   {
     color: white;
     background: #3882f6;
