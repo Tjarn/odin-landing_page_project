@@ -130,6 +130,10 @@ p.banner {
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* beginning of legs */
 
+.legs {
+    display: flex;
+}
+
 .bbox   {
     height: 75;
     width: 1000;
