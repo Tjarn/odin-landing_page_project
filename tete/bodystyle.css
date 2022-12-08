@@ -9,55 +9,6 @@
     
 }
 
-.tete {
-    width: 1440px;
-    height: 350px;
-    color:#f9fafa;
-    background: #1f2937;
-    display: flex;
-    flex-direction: row;
-    padding-left:100px;
-    padding-right: 100px;
-    padding-top: 30px;
-}
-
-.tete-left {
-    width: 720px;
-}
-
-p.loud {
-    color: #f9fafa;
-    font-size: 48px;
-    font-weight: 900;
-}
-
-p.soft {
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-.t-l-logo {
-    color:#f9fafa;
-    font-size:24px;   
-}
-
-.tete-right {
-    /* width: 720px; */
-}
-
-.navagation {
-    display: flex;
-}
-
-a {
-    color: #e5e7eb;
-    font-size: 18px;
-    text-decoration: none;
-    margin: 20px;
-}
-
-
-/* End of tete css definitions  */
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 /* Begin chest css definitions */
 
@@ -91,58 +42,22 @@ p.banner {
     border-radius: 10px;
     color: lightgoldenrodyellow;
     border:5px solid #3882f6;
-    background: darkblue;
+    background: #1f2937;
 }
 
-/* end of chest */
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* beginning of torso */
-
-
-.torso {
-    /* height: 300px; */
-    color: #1f2937;
-    background: #e5e7eb;
+.feet {
+    color: darkgreen;
+    background: #1f2937;
+    padding: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-
-.belly {
-    margin: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.quote  {
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: 100;
-}
-
-.attrib {
-    text-align: right;
-    font-size: 18px;
-    font-weight:800;
-}
-
-/* end of torso */
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* beginning of legs */
-
-.legs {
-    display: flex;
-}
-
-.bbox   {
-    color: white;
-    background: #3882f6;
-}
-
 
 footer {
+    margin: 30px;
     color: white;
-    background: black;
+    background:  #1f2937;
     font-size: 18px;
     text-justify: center;
 }
