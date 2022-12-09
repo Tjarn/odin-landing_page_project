@@ -3,15 +3,16 @@
     width: 1440px;
     height: 1912px;
     color: rgb(138, 29, 29);
-    background: grey;
+    background: peru;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     
 }
 
 .tete {
-    width: 1440px;
-    height: 350px;
+    /* width: 1440px; */
+    /* height: 350px; */
+    border:3px dotted white;
     color:#f9fafa;
     background: #1f2937;
     display: flex;
@@ -22,7 +23,8 @@
 }
 
 .tete-left {
-    width: 720px;
+    /* width: 720px; */
+    border:3px dotted green;
 }
 
 p.loud {
@@ -43,9 +45,11 @@ p.soft {
 
 .tete-right {
     /* width: 720px; */
+    border: 3px dashed red;
 }
 
 .navagation {
+    border:2px solid cyan;
     display: flex;
 }
 
@@ -63,7 +67,7 @@ a {
 
 .chest {
     /* height: 200px; */
-    background: white
+    background: white;
 }
 
 .chesthi {
@@ -82,17 +86,21 @@ p.banner {
     /* background: lightgreen; */
     display: flex;
     justify-content: center;
+    align-items: baseline;
 }
 
-.box {
-    height: 100px;
-    width: 141px;
-    margin: 20px;
-    border-radius: 10px;
-    color: lightgoldenrodyellow;
-    border:5px solid #3882f6;
-    background: darkblue;
+img  {
+    border: 8px solid #3882f6;
+    border-radius: 16px;
 }
+
+figcaption {
+    text-align:center;
+    font-size: 18px;
+    font-weight: 100;
+    font-style:oblique;
+}
+
 
 /* end of chest */
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
@@ -131,13 +139,31 @@ p.banner {
 /* beginning of legs */
 
 .legs {
+    border:3px solid blue;
+    padding: 10px;
     display: flex;
 }
 
 .bbox   {
+    margin: 20px;
+    border: 2px dotted black;
     color: white;
     background: #3882f6;
 }
+
+.rleg {
+    margin:10px;
+    border:2px dashed red;
+}
+
+.lleg {
+    margin: 10px;
+    border:2px dashed green;
+}
+
+
+
+
 
 .feet {
     padding:40px;
