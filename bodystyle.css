@@ -12,11 +12,12 @@
 .tete {
     /* width: 1440px; */
     /* height: 350px; */
-    border:3px dotted white;
+    /* border:3px dotted white; */
     color:#f9fafa;
     background: #1f2937;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-left:100px;
     padding-right: 100px;
     padding-top: 30px;
@@ -24,7 +25,7 @@
 
 .tete-left {
     /* width: 720px; */
-    border:3px dotted green;
+    /* border:3px dotted green; */
 }
 
 p.loud {
@@ -43,13 +44,25 @@ p.soft {
     font-size:24px;   
 }
 
+button.tl {
+    color:white;
+    background: #3882f6;
+    font-weight: 800;
+    padding:6px 18px;
+    border-radius: 8px;
+
+}
+
 .tete-right {
     /* width: 720px; */
-    border: 3px dashed red;
+    /* border: 3px dashed red; */
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
 }
 
 .navagation {
-    border:2px solid cyan;
+    /* border:2px solid cyan; */
     display: flex;
 }
 
@@ -58,6 +71,14 @@ a {
     font-size: 18px;
     text-decoration: none;
     margin: 20px;
+}
+
+#star  {
+    width:400px;
+    height:300px;
+    border: none;
+    border-radius: 1px;
+    margin-left: 100px;
 }
 
 
