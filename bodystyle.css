@@ -139,10 +139,15 @@ p.banner {
     background: #3882f6;
 }
 
-
+.feet {
+    padding:40px;
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+}
 footer {
     color: white;
-    background: black;
+    background: #1f2937;
     font-size: 18px;
     text-justify: center;
 }
