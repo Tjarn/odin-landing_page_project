@@ -89,6 +89,7 @@ a {
 .chest {
     /* height: 200px; */
     background: white;
+    padding: 100px;
 }
 
 .chesthi {
@@ -163,14 +164,16 @@ figcaption {
     /* border:3px solid blue; */
     background:white;
     padding: 10px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: baseline;
 }
 
 .bbox   {
-    margin: 10px;
+    margin: 100px;
     width:1000px;
+    height: 150px;
     /* border: 2px dotted black; */
     border-radius: 12px;
     color: white;
@@ -186,7 +189,7 @@ figcaption {
 }
 
 p.call {
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 500;
 }
 p.even {
@@ -203,7 +206,7 @@ p.even {
 }
 
 #legbutton {
-    border:3px solid white;
+    border:3px solid rgb(97, 255, 189);
     border-radius: 12px;
     padding:5px 50px;
     color: white;
