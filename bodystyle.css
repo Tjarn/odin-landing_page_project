@@ -74,7 +74,7 @@ a {
 }
 
 #star  {
-    width:400px;
+    width:600px;
     height:300px;
     border: none;
     border-radius: 1px;
@@ -160,30 +160,57 @@ figcaption {
 /* beginning of legs */
 
 .legs {
-    border:3px solid blue;
+    /* border:3px solid blue; */
+    background:white;
     padding: 10px;
     display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .bbox   {
-    margin: 20px;
-    border: 2px dotted black;
+    margin: 10px;
+    width:1000px;
+    /* border: 2px dotted black; */
+    border-radius: 12px;
     color: white;
     background: #3882f6;
+    display: flex; 
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .rleg {
     margin:10px;
-    border:2px dashed red;
+    /* border:2px dashed red; */
 }
+
+p.call {
+    font-size: 18px;
+    font-weight: 500;
+}
+p.even {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
 
 .lleg {
     margin: 10px;
-    border:2px dashed green;
+    /* border:2px dashed green; */
 }
 
-
-
+#legbutton {
+    border:3px solid white;
+    border-radius: 12px;
+    padding:5px 50px;
+    color: white;
+    background: #3882f6;
+    font-size: 18px;
+    font-weight: 800;
+}
 
 
 .feet {

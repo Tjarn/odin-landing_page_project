@@ -1,4 +1,21 @@
 Project: Landing Page from project odin Foundations course
+12/9/22
+
+I've just about got the landing page done.  I think that it's only a few 
+little tweaks from calling it done.  I'm pretty sure I can draw a dom tree
+for it in my sleep.
+
+At any rate, I've been coding more than pointificating, and It, at least,
+feels like I've made a decent amount of progress in laying out in html
+and fancying up in css.  There's enough old-school stuf that I remember 
+from back in X-11 as hot technology days.  I need to see if I can run a
+few things across the net like that.  I have to remember the tricks and
+the syntax.  It was all baked in and no one uses it any more.
+
+I'm getting used to git.  Just don't remember to switch to the work branch.
+I think that if I leave it on work, then pick something up in between, 
+that it won't mess up the up to date work on main.
+
 12/7/22
 
 I don't think I understand merging because I don't understand branching.
